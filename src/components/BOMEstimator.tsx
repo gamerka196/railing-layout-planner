@@ -274,7 +274,7 @@ export default function BOMEstimator({
 
   const handleCopyForQuickBooks = async () => {
     try {
-      const succeeded = await copyBOMForQuickBooks(activeBOM);
+      const succeeded = await copyBOMForQuickBooks(activeBOM, options.systemColor);
       setQbCopyState(succeeded ? 'copied' : 'error');
     } catch (err) {
       console.error('Failed to copy estimate for QuickBooks:', err);
