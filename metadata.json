@@ -1,0 +1,6 @@
+{
+  "name": "Railing Layout Planner",
+  "description": "An interactive tool to draw layouts and generate customized railing systems with precise post and picket spacing in feet or inches.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
